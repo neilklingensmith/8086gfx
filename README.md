@@ -8,7 +8,7 @@ Write a program in emu8086 that draws something on the screen that resembles a f
 
 Couple of hints:
 
-* Pixel offset from the base of video memory = `x + SCREEN\_WIDTH \* y`
+* Pixel offset from the base of video memory = `x + SCREEN_WIDTH * y`
 * Try to start by writing a function `drawDot` that draws a square on the screen at a given (x,y) location. Use that function to make the eyes.
 * You can make a basic mount with a straight flat line.
 * Refer to the code example from 1/31 on the course website for how to set up video mode and draw graphics on the screen.
